@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/GoogleMaps/palneMapTex.unity
+  isLoaded: 1
+  isActive: 1
