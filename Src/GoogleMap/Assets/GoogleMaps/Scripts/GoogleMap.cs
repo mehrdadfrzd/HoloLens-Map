@@ -46,13 +46,13 @@ public class GoogleMap : MonoBehaviour
         if (!autoLocateCenter)
         {
             if (centerLocation.address != "")
-                qs += "center=" + WWW.UnEscapeURL(centerLocation.address);
+                qs += "center=" + WWW.EscapeURL(centerLocation.address);
             else
-                qs += "center=" + WWW.UnEscapeURL(string.Format("{0},{1}", centerLocation.latitude, centerLocation.longitude));
+                qs += "center=" + WWW.EscapeURL(string.Format("{0},{1}", centerLocation.latitude, centerLocation.longitude));
 
             qs += "&zoom=" + zoom.ToString();
         }
-        qs += "&size=" + WWW.UnEscapeURL(string.Format("{0}x{0}", size));
+        qs += "&size=" + WWW.EscapeURL(string.Format("{0}x{0}", size));
         qs += "&scale=" + (doubleResolution ? "2" : "1");
         qs += "&maptype=" + mapType.ToString().ToLower();
         var usingSensor = false;
