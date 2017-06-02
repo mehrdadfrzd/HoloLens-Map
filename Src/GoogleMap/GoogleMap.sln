@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{5C74A965-B9C4-9A1E-ADB7-B7EDAF295E46}") = "GoogleMap", "Assembly-CSharp-firstpass.csproj", "{125CDBD4-F49A-6B0A-6CD5-B050A93D8FFA}"
+EndProject
 Project("{5C74A965-B9C4-9A1E-ADB7-B7EDAF295E46}") = "GoogleMap", "Assembly-CSharp.csproj", "{B690FA1F-2480-24DB-CF49-692298FF86ED}"
+EndProject
+Project("{5C74A965-B9C4-9A1E-ADB7-B7EDAF295E46}") = "GoogleMap", "Assembly-CSharp-Editor.csproj", "{FA42D040-FE2B-A069-0BB7-427671AF17DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125CDBD4-F49A-6B0A-6CD5-B050A93D8FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125CDBD4-F49A-6B0A-6CD5-B050A93D8FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125CDBD4-F49A-6B0A-6CD5-B050A93D8FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125CDBD4-F49A-6B0A-6CD5-B050A93D8FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B690FA1F-2480-24DB-CF49-692298FF86ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B690FA1F-2480-24DB-CF49-692298FF86ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B690FA1F-2480-24DB-CF49-692298FF86ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B690FA1F-2480-24DB-CF49-692298FF86ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA42D040-FE2B-A069-0BB7-427671AF17DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA42D040-FE2B-A069-0BB7-427671AF17DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA42D040-FE2B-A069-0BB7-427671AF17DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA42D040-FE2B-A069-0BB7-427671AF17DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
