@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E2D31F76-E961-CAA6-D833-74BA1C594BFC}") = "SimpleDrag", "Assembly-CSharp.csproj", "{2F559B00-0951-208F-695E-0E4A1EB1F993}"
+EndProject
+Project("{E2D31F76-E961-CAA6-D833-74BA1C594BFC}") = "SimpleDrag", "Assembly-CSharp-Editor.csproj", "{8EDFB9D9-35EC-9EA6-915C-09943147A73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F559B00-0951-208F-695E-0E4A1EB1F993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F559B00-0951-208F-695E-0E4A1EB1F993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F559B00-0951-208F-695E-0E4A1EB1F993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F559B00-0951-208F-695E-0E4A1EB1F993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDFB9D9-35EC-9EA6-915C-09943147A73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDFB9D9-35EC-9EA6-915C-09943147A73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDFB9D9-35EC-9EA6-915C-09943147A73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDFB9D9-35EC-9EA6-915C-09943147A73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
